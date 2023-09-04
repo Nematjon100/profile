@@ -28,18 +28,20 @@
           </header>
 
           <div class="profile-settings__form-body">
-            <img src="img/avatar.jpg" alt="profile img" width="60" height="60">
+            <img class="profile-settings__avatar" src="img/avatar.jpg" alt="profile img" width="60" height="60">
             <div class="profile-settings__form-group">
               <label for="settings-username-input" class="profile-settings__form-label">Username</label>
               <input type="text" class="profile-settings__form-field" name="username" id="settings-username-input" placeholder="Enter your username" required>
             </div>
-            <div class="profile-settings__form-group">
-              <label for="settings-first-name-input" class="profile-settings__form-label">First name</label>
-              <input type="text" class="profile-settings__form-field" name="first_name" id="settings-first-name-input" placeholder="Enter your first name" required>
-            </div>
-            <div class="profile-settings__form-group">
-              <label for="settings-last-name-input" class="profile-settings__form-label">Last name</label>
-              <input type="text" class="profile-settings__form-field" name="last_name" id="settings-last-name-input" placeholder="Enter your lastname" required>
+            <div class="profile-settings__row">
+              <div class="profile-settings__form-group">
+                <label for="settings-first-name-input" class="profile-settings__form-label">First name</label>
+                <input type="text" class="profile-settings__form-field" name="first_name" id="settings-first-name-input" placeholder="Enter your first name" required>
+              </div>
+              <div class="profile-settings__form-group">
+                <label for="settings-last-name-input" class="profile-settings__form-label">Last name</label>
+                <input type="text" class="profile-settings__form-field" name="last_name" id="settings-last-name-input" placeholder="Enter your lastname" required>
+              </div>
             </div>
             <div class="profile-settings__form-group">
               <label for="settings-email-input" class="profile-settings__form-label">Email</label>

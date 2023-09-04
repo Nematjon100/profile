@@ -28,7 +28,7 @@ body {
   font-size: 15px;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #222;
   color: var(--text-color);
 }
 
@@ -38,7 +38,7 @@ img {
 }
 /* -------------------------BUTTONS----------------------------- */
 .button {
-  
+
 }
 
 /* CONTAINER */
@@ -52,17 +52,124 @@ img {
 }
 
 
-/* ------------------------HEADER-------------------------- */
-
-
 
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-/* ---------------------------HERO-------------------------------- */
+.profile-stettings {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: goldenrod;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
 
+.profile-settings__form {
+}
+
+.profile-settings__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.profile-settings__title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.profile-settings__close-link {
+  display: flex;
+}
+
+.profile-settings__form-body {
+  position: relative;
+  left: 40px;
+  padding: 60px 30px 40px;
+  background-color: #fff;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.5);
+}
+
+.profile-settings__avatar {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  transform: translateY(-50%);
+}
+
+.profile-settings__row {
+  display: flex;
+}
+
+.profile-settings__row:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+
+
+.profile-settings__form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-settings__form-group:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.profile-settings__row .profile-settings__form-group {
+  width: 50%;
+  margin-bottom: 0;
+}
+
+.profile-settings__form-label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #666;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.profile-settings__form-field {
+  display: block;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 0;
+  border-bottom: 1px solid #666;
+}
+
+.profile-settings__form-field-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.profile-settings__form-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 40px;
+}
+
+.profile-settings__form-action {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.profile-settings__form-action:not(:last-child) {
+  margin-right: 40px;
+}
 
 
 /* -------------------------RETINA DISPLAY------------------------ */
