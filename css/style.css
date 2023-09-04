@@ -1,0 +1,79 @@
+
+/* GLOBAL */
+:root {
+  --primary: #;
+  --text-color: #;
+}
+
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* -------------------------BUTTONS----------------------------- */
+.button {
+  
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* ------------------------HEADER-------------------------- */
+
+
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+}
+
+/* ---------------------------HERO-------------------------------- */
+
+
+
+/* -------------------------RETINA DISPLAY------------------------ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .hero__img {
+    background-image: url('');
+  }
+}
